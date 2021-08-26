@@ -5,6 +5,8 @@ import socket
 import requests
 
 sys.path.append(os.getcwd())
+sys.path.append('../')
+print(sys.path)
 from privatekeys.api_keys import apikeys
 
 hostname = socket.gethostname()
